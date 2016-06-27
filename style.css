@@ -1,0 +1,33 @@
+.title{
+    text-align: center;
+    color: cyan;
+}
+
+.form-inline{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.song-list{
+    text-align: center;
+    color: cyan;
+}
+
+.body{
+    background-image: url(https://www.pixelmusic.net/wp-content/uploads/2015/05/Anime-Wallaper-Music-1.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+
+.btn {
+    margin-top: 25px;
+}
+
+
+
+

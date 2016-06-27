@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Itunes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  </head>
+  <body class='body'>
+    <div></div>
+      <form class="form-inline">
+        <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
+        <div class="form-group">
+          <input type="text" class="form-control" id="artist" placeholder="Artist Name"/></br>
+          <button type="button" class="btn btn-danger" id="get-music-button" onclick="getMusic()">Get Music</button>
+        </div>
+      </form>
+      
+    
+      
+      <table class="table table-hover table-responsive song-list">
+        <thead>
+        <tr>
+          <th>Title</th>
+          <th>Album Art</th>
+          <th>Artist</th>
+          <th>Album</th>
+          <th>Price</th>
+          <th>Preview</th>
+        </tr>
+        </thead>
+        <tbody id="song-list">
+
+        </tbody>
+        
+        
+      </table>
+
+      
+  </body>
+
+  <script src="app.js"></script>
+  <script src="itunes-service.js"></script>
+</html>
+
+
+</html>
