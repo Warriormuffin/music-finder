@@ -41,15 +41,13 @@ function drawSongs(songList) {
 
 
 
-
-document.addEventListener('play', function(e){
-    var audios = document.getElementsByTagName('audio');
-    for(var i = 0, len = audios.length; i < len;i++){
-        if(audios[i] != e.target){
-            audios[i].pause();
-        }
+document.getElementById("artist")
+    .addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode == 13) {
+        document.getElementById("get-music-button").click();
     }
-}, true);
+});
 
 
 
